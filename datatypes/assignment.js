@@ -21,18 +21,23 @@ let cars=[
  { "brand": "Nissan", "model": "Magnite", "price": 900000, "color": "Silver" }
 ]
 
-//for(let car of cars){
- //   console.log(car.brand)
-//}
+for(let i=0;i<cars.length;i++){
+    console.log(cars[i].brand)
+}
 
-for(let car of cars){
-    if(car.color==="Red"){ 
-     console.log(car)
+for(let i=0;i<cars.length;i++){
+    console.log(cars[i].model)
+}
+
+
+for(let i=0;i<cars.length;i++){
+    if(cars[i].color==="Red"){
+        console.log(cars[i])
     }
 }
 
-for(let car of cars){
-    if(car.price<=1000000)
-        console.log(cars)
+for(let i=0;i<cars.length;i++){
+    if(cars[i].price<=1000000){
+        console.log(cars[i])
+    }
 }
-

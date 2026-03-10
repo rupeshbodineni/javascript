@@ -7,7 +7,7 @@
 
 let i=0;
 let enames=["rupesh","suresh","mahesh"];
-while(i<=enames.length-1){
+while(i<=enames.length-2){
     console.log(enames[i]);
     i++;
 }
