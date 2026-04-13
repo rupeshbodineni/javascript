@@ -11,24 +11,3 @@ let createEmployee=(emp)=>{
         },4000)
     })
 }
-let getEmployees=()=>{
-     setTimeout(()=>{
-        let rows="";
-        employees.forEach((emp)=>{
-            rows=rows+`<tr>
-                        <td>${emp.eid}</td>
-                        <td>${emp.ename}</td>
-                        <td>${emp.esal}</td>
-                        </tr>`
-        })
-        document.getElementById('tdata').innerHTML=rows;
-     },2000)
-}
-createEmployee({eid:103,ename:"Priya",esal:65000})
-.then((resp)=>{
-    console.log(resp);
-    getEmployees();
-})
-.catch((err)=>{
-    console.log(err)
-})

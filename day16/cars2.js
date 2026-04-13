@@ -20,7 +20,6 @@ let cars=[
   {"brand":"Skoda","model":"Slavia","price":1300000,"color":"Blue"},
   {"brand":"Volkswagen","model":"Virtus","price":1400000,"color":"Red"}
 ]
-let new_Car_Details = cars.map((car) => {
-    car.price = car.price + 50000;
+let new_Car_Details = cars.map((car) => { car.price = car.price + 50000;
     return car;
 });
