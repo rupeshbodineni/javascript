@@ -10,3 +10,5 @@ class person{
 }
 let p1=new person("Alice");
         p1.greet();
+
+        

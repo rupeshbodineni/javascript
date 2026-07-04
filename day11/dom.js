@@ -6,7 +6,7 @@ function changeColor5(){
     console.log(input_Tag_Ref)
 }
 function changeCase(){
-    //alert("Test Case 123")
+    alert("Test Case 123")
     let ename=document.getElementById('ip2').value;
     console.log(ename)
     document.getElementById('ip2').value=ename.toUpperCase();

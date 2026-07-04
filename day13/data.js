@@ -240,7 +240,7 @@ function displayData(){
                      <td>${user.username}</td>
                      <td>${user.address.city}</td>
                      <td>${user.comany.name}</td>
-        </tr>
+                   </tr>
     }
     document.querySelector('.abc').innerHTML=rows;
 }
